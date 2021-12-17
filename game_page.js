@@ -65,7 +65,7 @@ if(answer == word){
 
   if(answer_turn == "player1"){
     answer_turn = "player2";
-    document.getElementById("player_answer").innerHTML = "Question Turn: "+player2_name;
+    document.getElementById("player_answer").innerHTML = "Answer Turn: "+player2_name;
   }
   else{
     answer_turn = "player1";
